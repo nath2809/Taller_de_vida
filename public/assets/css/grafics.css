@@ -1,0 +1,286 @@
+
+                        /* ----------------- SECTION GRAFICOS --------------------*/
+            
+/* ------ ESTILOS DE LOS DATOS TOTALES ------ */
+
+.containerTotalData{
+    width: 96%;
+    margin-left: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 25vh;
+    padding-top: 2%;
+    background-color: transparent;
+}
+
+.styleDivTotalData{
+    background-color: #ffffff;
+    padding: 5px;
+    width: 50%;
+    height: 100%;
+    border-radius: 2px;
+    box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 2px 0px;
+}
+
+.styleTitleTotal{
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    height: 20%;
+}
+
+.styleTitleTotal h1{
+    font-size: 15px;
+    font-family: poppins;
+    font-weight: 400;
+}
+
+.styleDataTotalAll{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+.divIconStyleGeneral{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    width: 80px;
+    height: 80px;
+}
+
+.divIconTotalUsers{
+    width: 50px;
+    height: 50px;
+    background-color: rgba(170, 179, 218, 0.213);
+}
+
+.divIconTotalUsers i{
+    font-size: 20px;
+    color: rgb(0, 47, 255);
+}
+
+.divIconTotalActivities{
+    width: 50px;
+    height: 50px;
+    background-color: rgba(250,225,4, 0.213);
+}
+
+.divIconTotalActivities i{
+    font-size: 20px;
+    color: rgb(230, 214, 67);
+}
+
+.styleDataTotalAll p{
+    font-size: 35px;
+    color: rgb(0, 0, 44);
+    font-family: poppins;
+    font-weight: 400;
+}
+
+
+/* --- ESTILOS DE LOS ULTIMOS REGISTROS ---- */
+
+.containerLideresInfo{
+    width: 96%;
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    grid-gap: 5px; 
+    margin-left: 2%;
+    margin-top: 2%;
+    padding: 5px;
+}
+
+.containerLideresInfo .styleDivDataLideres{
+    background-color: #ffffff;
+    padding: 5px;
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+    box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 2px 0px;
+}
+
+.contentInfoUser{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgba(13, 197, 127, 0.102);
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.contentInfoUser .pictureUser{
+    padding: 5px;
+}
+
+.pictureUser img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.pictureActivity{
+    padding: 5px;
+}
+
+.pictureActivity img{
+    width: 60px;
+    border-radius: 2px;
+}
+
+.contentInfoUser .infoUser{
+    padding: 5px;
+    width: 100%;
+    font-family: poppins;
+}
+
+.infoUser h1{
+    width: 100%;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.infoUser p{
+    font-size: 13px;
+    font-weight: 400;
+}
+
+p.NoInfoFound{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+/* ---- ESTILOS DE LOS GRAFICOS ------ */
+
+.ContainerGrafics{
+    width: 96%;
+    margin-left: 2%;
+    margin-top: 2%;
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px; 
+    background-color: transparent;
+    padding: 2px;
+
+}
+
+.ContainerGraficsUsers{
+    width: 96%;
+    margin-left: 2%;
+    margin-top: 2%;
+    display: grid; 
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 2px; 
+    padding: 2px;
+    cursor: crosshair;
+}
+
+.TitleContainerGrafics{
+    background-color: white;
+    width: 100%;
+    padding: 10px;
+    border-left: 5px solid rgb(87, 87, 220);
+    border-bottom: 1px solid rgb(235, 235, 235);
+}
+
+.TitleContainerGrafics p{
+    font-size: 20px;
+    font-family: poppins;
+    font-weight: 400;
+    padding: 10px;
+}
+
+.StyleContainerCanva{
+    width: 99.9%;
+    height: auto; 
+    gap: 1px;
+    background-color: white;
+    margin-bottom: 2%;
+    box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 2px 0px;
+}
+
+.StyleTitleCanva{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding: 15px;
+    border-bottom: 1px solid rgb(212, 212, 212);
+    background-color: rgb(249, 249, 249);
+}
+
+.StyleTitleCanva h1{
+    font-size: 16px;
+    font-family: poppins;
+    font-weight: 400;
+    color: rgb(0, 0, 44);
+}
+
+
+/* --- MEDIAQUERYS --- */
+
+@media (max-width: 800px){
+
+/* SESION ADAPTABLE A TABLET - GRAFICOS*/
+
+    .containerLideresInfo{
+        grid-template-columns: repeat(1, 100%);
+    }
+}
+
+
+@media (max-width: 500px){
+
+/* SESION ADAPTABLE A CELULAR - GRAFICOS*/
+
+    /* -------------------- */
+
+    .containerTotalData{
+        display: block;
+        height: 29vh;
+    }
+
+    .styleDivTotalData {
+        padding: 5px;
+        width: 100%;
+        height: 13vh;
+        margin-top: 5px;
+    }
+
+    /* -------------------- */
+
+    .styleTitleTotal h1 {
+        font-size: 15px;
+    }
+    
+    .pictureActivity img{
+        width: 50px;
+    }
+    
+    .contentInfoUser .infoUser{
+        padding: 5px;
+    }
+    
+    .infoUser h1{
+        font-size: 14px;
+    }
+    
+    .infoUser p{
+        font-size: 13px;
+    }
+
+   /* ----------------- */
+
+    .ContainerGrafics {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

@@ -14,7 +14,8 @@
     <link rel="https://tallerdevida-production.up.railway.app/assets/css/style.css">
     <link rel="https://tallerdevida-production.up.railway.app/assets/css/grafics.css">
     <!-- Logo de la aplicación-->
-    <link rel="shortcut icon" href="{{url('assets/images/logo.png')}}">
+    <link rel="shortcut icon" href="https://tallerdevida-production.up.railway.app/assets/images/logo.png">
+
     <title>Fundación</title>
 </head>
 
